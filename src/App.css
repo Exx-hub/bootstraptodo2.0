@@ -1,0 +1,109 @@
+.app {
+  background: url(https://webgradients.com/public/webgradients_png/067%20Sky%20Glider.png)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbo {
+  color: #fff;
+  /* height: 75%; */
+  min-height: 75%;
+  width: 85%;
+  padding-top: 0;
+  /* flex-flow: column wrap; */
+  /* overflow: hidden; */
+}
+.header {
+  text-align: center;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+.add-form {
+  /* border: 2px solid pink; */
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.add-input {
+  background-color: #161a17;
+  color: gray;
+  border: 1px solid #058be8;
+  border-right: thin;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  padding: 0 20px;
+  padding-right: 30px;
+}
+
+.add-button {
+  background-image: linear-gradient(90deg, #058be8, #54a8e3);
+  border: 1px solid transparent;
+  border-radius: 0 4px 4px 0;
+}
+
+.edit-input {
+  background-color: #161a17;
+  color: gray;
+  border: 1px solid #be06d6;
+  border-right: 0.2px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  padding: 0 20px;
+  padding-right: 30px;
+}
+.edit-true {
+  visibility: hidden;
+}
+.edit-button {
+  background-image: linear-gradient(90deg, #be06d6, #c157cf);
+  border: 1px solid transparent;
+  border-radius: 0 4px 4px 0;
+  padding: 0 15px;
+}
+
+.todo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.completed {
+  opacity: 0.5;
+}
+
+.todo-title {
+  margin-left: 25px;
+}
+.icons {
+  margin-right: 15px;
+}
+.icons span {
+  margin: 0 10px;
+}
+
+.todo:nth-child(odd) {
+  background-image: linear-gradient(90deg, #4109ab, #bd0621);
+}
+.todo:nth-child(even) {
+  background-image: linear-gradient(90deg, #bd0621, #4109ab);
+}
+.clear-button {
+  background-image: linear-gradient(90deg, #058be8, #54a8e3);
+  border-radius: 5px;
+  padding: 5px 15px;
+}
